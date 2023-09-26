@@ -4,6 +4,7 @@ public class BinarySearchTree {
 
     class Node {
         int value;
+        Node left;
 
         public Node(int value) {
             this.value = value;
