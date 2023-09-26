@@ -13,7 +13,9 @@ public class BinarySearchTree {
 
     Node root;
 
-    public void delete(int value) {
+
+    public void update(int value) {
+   
         root = insertNode(root, value);
     }
 
