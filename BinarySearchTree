@@ -13,7 +13,7 @@ public class BinarySearchTree {
 
     Node root;
 
-    public void insert(int value) {
+    public void delete(int value) {
         root = insertNode(root, value);
     }
 
